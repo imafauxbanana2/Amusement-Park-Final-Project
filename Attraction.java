@@ -1,2 +1,2 @@
-public class Attraction() {
+public class Attraction {
 }
