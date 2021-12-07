@@ -22,9 +22,8 @@ public class Attraction {
     
     //method to calculate profit
     public double profit(int k, double l, double i, int j) {  //i is ticketCost, j is riderAmount, they are all sent over from your own classes
-		
-    	double cost2 = (double)dailyCost(k, l);
-		return (double)((i*j) - cost2);
+    		double cost2 = (double)dailyCost(k, l);
+				return (double)((i*j) - cost2);
     		
     }
     //instance variables
