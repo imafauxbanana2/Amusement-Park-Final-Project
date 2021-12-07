@@ -1,9 +1,8 @@
+//@author: Alex Zhao, Eric Morgan, Matthew Jimenez
 public class Attraction {
     //@author: Alex Zhao, Eric Morgan, Matthew Jimenez
 	
-	
 	//constructor
-    
 	public Attraction(int a, int b, double c, double d, double e, double f) {
     		maxRiders = a;
     		hoursPerDay = b;
