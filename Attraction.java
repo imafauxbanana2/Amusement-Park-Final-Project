@@ -1,5 +1,8 @@
 public class Attraction {
-    //constructor
+    //@author: alex zhao, eric morgan, matthew jimenez
+	
+	
+	//constructor
     public Attraction() {
 
     }
