@@ -3,12 +3,13 @@ public class Attraction {
 	
 	
 	//constructor
-    public Attraction(int a, int b, double c, double d, double e, double f) {
-    		maxRiders = int a
-    		hoursPerDay = int b;
-    		ticketCost = double c;
-    		height = double d;
-    		speed = double e
+    
+	public Attraction(int a, int b, double c, double d, double e, double f) {
+    		maxRiders = a;
+    		hoursPerDay = b;
+    		ticketCost = c;
+    		height = d;
+    		speed = e;
     		rideLength = f;
     }
     //method to calculate daily cost
