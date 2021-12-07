@@ -20,11 +20,11 @@ public class Attraction {
 
     }
     //instance variables
-    private int maxRiders;
-    private int hoursPerDay;
-    private double ticketCost;
-    private double height;
-    private double rideLength;
-    private double speed;
+    private int maxRiders; //the maximum number of riders a ride can have
+    private int hoursPerDay; //how many hours per day the ride operates
+    private double ticketCost; //the tickets a ride costs
+    private double height; //the height of a ride
+    private double rideLength; //the length of a ride
+    private double speed; //the speed of a ride
 
 }
