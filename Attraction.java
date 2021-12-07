@@ -1,5 +1,5 @@
 public class Attraction {
-    //@author: alex zhao, eric morgan, matthew jimenez
+    //@author: Alex Zhao, Eric Morgan, Matthew Jimenez
 	
 	
 	//constructor
