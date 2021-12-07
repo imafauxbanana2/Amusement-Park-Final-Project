@@ -3,8 +3,13 @@ public class Attraction {
 	
 	
 	//constructor
-    public Attraction() {
-
+    public Attraction(int maxRiders, int hoursPerDay, double ticketCost, double height, double speed, double rideLength) {
+    		int a = maxRiders;
+    		int b = hoursPerDay;
+    		double c = ticketCost;
+    		double d = height;
+    		double e = speed;
+    		double f = rideLength;
     }
     //method to calculate daily cost
     public void dailyCost() {
@@ -16,13 +21,9 @@ public class Attraction {
     }
     //instance variables
     private int maxRiders;
-    private int ticketsToUse;
-    private int attendantsAmount;
-    private int ridersPerHour;
     private int hoursPerDay;
     private double ticketCost;
     private double height;
-    private double utilitiesCost;
     private double rideLength;
     private double speed;
 
