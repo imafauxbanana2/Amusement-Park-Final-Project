@@ -27,6 +27,7 @@ public class Attraction {
 				return (double)((ticketCost*riderAmount*timesRode) - cost2);
     		
     }
+    
     //instance variables
     private int maxRiders; //the maximum number of riders a ride can have
     private int hoursPerDay; //how many hours per day the ride operates
@@ -34,7 +35,8 @@ public class Attraction {
     private double height; //the height to get into a ride
     private double rideLength; //the length of a ride
     private double speed; //the speed of a ride
-    private int riderAmount;
-    private double rideCare;
     private int timesRode;
+    private int riderAmount; //number of riders on a ride
+    private double rideCare; //cost for ride upkeep
+
 }
