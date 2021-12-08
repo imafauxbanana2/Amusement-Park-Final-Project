@@ -3,7 +3,7 @@ public class Attraction {
 	
 	//constructor
 
-	public Attraction(int a, int b, double c, double d, double e, double f, int g, double h) {
+	public Attraction(int a, int b, double c, double d, double e, double f, int g, double h, int p) {
 
     		maxRiders = a;
     		hoursPerDay = b;
@@ -13,6 +13,7 @@ public class Attraction {
     		rideLength = f;
     		riderAmount = g;
     		rideCare = h;
+    		timesRode = p;
     }
     //method to calculate daily cost
     public double dailyCost(int k, double l) { //k is hoursPerDay, l is rideCare
@@ -21,9 +22,9 @@ public class Attraction {
   
     
     //method to calculate profit
-    public double profit(int k, double l, double i, int j) {  //i is ticketCost, j is riderAmount, they are all sent over from your own classes
-    		double cost2 = (double)dailyCost(k, l);
-				return (double)((i*j) - cost2);
+    public double profit() {  //i is ticketCost, j is riderAmount, they are all sent over from your own classes
+    		double cost2 = (double)dailyCost(hoursPerDay, rideCare);
+				return (double)((ticketCost*riderAmount*timesRode) - cost2);
     		
     }
     //instance variables
@@ -35,4 +36,5 @@ public class Attraction {
     private double speed; //the speed of a ride
     private int riderAmount;
     private double rideCare;
+    private int timesRode;
 }
