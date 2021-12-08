@@ -33,6 +33,6 @@ public class Attraction {
     private double height; //the height to get into a ride
     private double rideLength; //the length of a ride
     private double speed; //the speed of a ride
-    private int riderAmount;
-    private double rideCare;
+    private int riderAmount; //number of riders on a ride
+    private double rideCare; //cost for upkeep
 }
