@@ -1,6 +1,6 @@
 public class FerrisWheel extends Attraction {
 	
-		Attraction connect = new Attraction(20, 8, 5.0, 42, 40, 10, 20, 40, 4);
+		Attraction connect = new Attraction(60, 8, 7.50, 36, 1.5, 900, 20, 50, 3);
 			System.out.println(connect.profit());
 		
 		
