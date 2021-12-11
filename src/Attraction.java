@@ -32,10 +32,10 @@ public class Attraction {
     private int maxRiders; //the maximum number of riders a ride can have
     private int hoursPerDay; //how many hours per day the ride operates
     private double ticketCost; //the tickets a ride costs
-    private double height; //the height to get into a ride
-    private double rideLength; //the length of a ride
+    private double height; //the height to get into a ride in inches
+    private double rideLength; //the length of a ride in seconds
     private double speed; //the speed of a ride
-    private int timesRode;
+    private int timesRode; //the number of times a ride is ridden
     private int riderAmount; //number of riders on a ride
     private double rideCare; //cost for ride upkeep
 
