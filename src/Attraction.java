@@ -14,6 +14,7 @@ public class Attraction {
     		riderAmount = g;
     		rideCare = h;
     		timesRode = p;
+    		
     }
     //method to calculate daily cost
     public double dailyCost(int k, double l) { //k is hoursPerDay, l is rideCare
@@ -38,5 +39,5 @@ public class Attraction {
     private int timesRode;
     private int riderAmount; //number of riders on a ride
     private double rideCare; //cost for ride upkeep
-
+    private int rideTime;
 }
