@@ -18,8 +18,10 @@ public class SplashMountain extends Attraction {
 	        System.out.println(throwup + "% of people threw up");
 	    }
 	 
-	 private int time;
+	 private int time;    //time constant instance field
 	
+	 
+	 
 	   public static void main(String args[]) {             //test class
  
 		   	int startingVelo = (int)(Math.random()) * 100 + 50;
