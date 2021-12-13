@@ -1,3 +1,6 @@
+//@author Matthew Jimenez
+//prints out certain information on the ride Ferris Wheel
+//Heiser 7 12-12-2021
 public class FerrisWheel extends Attraction {
 	
 	  public FerrisWheel(int a, int b, double c, double d, double e, double f, int g, double h, int p) 
