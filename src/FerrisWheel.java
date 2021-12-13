@@ -19,7 +19,7 @@ public class FerrisWheel extends Attraction {
 	  {
 		//Calculate the number of people who will puke on the ride
 	        int heightFright = (int)(Math.random() * 10 + 1);
-	        System.out.println("This Month, while on the ride " + heightFright + " people puked because of their fears of height!");
+	        System.out.println("While on the ride " + heightFright + " people puked because of their fears of height!");
 	  }  
 	  
 	  public static void main(String args[]) 
