@@ -1,6 +1,7 @@
 //@author alex zhao
 //prints out certain information on the ride Splash Mountain
-//Heiser 7 12-13-2021
+//Heiser 7 
+//12-13-2021
 public class SplashMountain extends Attraction {
 	
 	 public SplashMountain(int a, int b, double c, double d, double e, double f, int g, double h, int p, int o) {
@@ -8,7 +9,7 @@ public class SplashMountain extends Attraction {
 	        time = 5; 							//ride time constant
 	    }
 		
-	 public static void fallFinalVelo(int x) {           //passes over a random starting velo, prints out velocity
+	 public static void fallFinalVelo(int x) {           //passes over a random starting velo, prints out final velocity
 	        double velocity = (2*-10*50) + 5*x;
 	        System.out.println("The final velocity of Splash Mountain is: " + velocity + " m/s");
 	    }
@@ -18,21 +19,27 @@ public class SplashMountain extends Attraction {
 	        System.out.println(throwup + "% of people threw up");
 	    }
 	 
+	 public static void deathToll() {						//calculates percent of people who died
+		 double maxRiders = (Math.random() * 20 + 1);
+		 int percent = (int)maxRiders/15;
+		 System.out.println(percent + " percent of people died :(");
+	 }
+	 
 	 private int time;    //time constant instance field
 	
 	 
 	 
 	   public static void main(String args[]) {             //test class
  
-		   	int startingVelo = (int)(Math.random()) * 100 + 50;
+		   	int startingVelo = (int)(Math.random()) * 100 + 50;    //random starting velocity for splash mountain
 		   
-		   	Attraction connect = new Attraction(15, 7, 10.0, 42.0, 1.0, 1200, 10, 250.0, 21);
+		   	Attraction connect = new Attraction(15, 7, 10.0, 42.0, 1.0, 1200, 10, 250.0, 21);     //passes over starting parameters for superclass
 	        	
 	        System.out.println("The daily cost to operate the ride is: $" + connect.dailyCost(7, 250.0));
-	        System.out.println("The profit of the ride is: $" + connect.profit());
+	        System.out.println("The profit of the ride is: $" + connect.profit());      //prints from superclass
 	        SplashMountain.throwUpPercent();
 	        SplashMountain.fallFinalVelo(startingVelo);          //connects using class name because static
-	        
+	        SplashMountain.deathToll();
 
 
 
