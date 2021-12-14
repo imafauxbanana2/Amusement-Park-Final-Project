@@ -36,7 +36,7 @@ public class FerrisWheel extends Attraction {
 	  public static void main(String args[]) 
 	  {
 		//Intialize the variables inherited variables from the Attraction class
-		Attraction BigO = new Attraction(60, 8, 7.50, 36.0, 1.5, 900, 20, 150.0, 10);
+		Attraction BigO = new Attraction(60, 8, 7.50, 36.0, 1.5, 900, 20, 150.0, 18);
 		
 		System.out.println ("Welcome to the BigO:");	//Introduce the Attraction
 		FerrisWheel.gForce();	//Call the gForce method
