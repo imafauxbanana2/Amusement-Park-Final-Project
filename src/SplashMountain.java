@@ -33,7 +33,7 @@ public class SplashMountain extends Attraction {
  
 		   	int startingVelo = (int)(Math.random()) * 100 + 50;    //random starting velocity for splash mountain
 		   
-		   	Attraction connect = new Attraction(15, 7, 10.0, 42.0, 1.0, 1200, 10, 250.0, 21);     //passes over starting parameters for superclass
+		   	Attraction connect = new Attraction(20, 8, 11.5, 40.0, 2.0, 1520, 11, 300.0, 15);     //passes over starting parameters for superclass
 	        	
 	        System.out.println("The daily cost to operate the ride is: $" + connect.dailyCost(7, 250.0));
 	        System.out.println("The profit of the ride is: $" + connect.profit());      //prints from superclass
