@@ -19,6 +19,12 @@ public class SplashMountain extends Attraction {
 	        System.out.println(throwup + "% of people threw up");
 	    }
 	 
+	 public static void deathToll() {
+		 double maxRiders = (Math.random() * 20 + 1);
+		 int percent = (int)maxRiders/15;
+		 System.out.println(percent + " percent of people died :(");
+	 }
+	 
 	 private int time;    //time constant instance field
 	
 	 
@@ -33,7 +39,7 @@ public class SplashMountain extends Attraction {
 	        System.out.println("The profit of the ride is: $" + connect.profit());
 	        SplashMountain.throwUpPercent();
 	        SplashMountain.fallFinalVelo(startingVelo);          //connects using class name because static
-	        
+	        SplashMountain.deathToll();
 
 
 
