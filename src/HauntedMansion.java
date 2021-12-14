@@ -1,4 +1,4 @@
-    //@author: Eric Morgan
+//@author Eric Morgan
 public class HauntedMansion extends Attraction {
 
     public HauntedMansion(int a, int b, double c, double d, double e, double f, int g, double h, int p) {
