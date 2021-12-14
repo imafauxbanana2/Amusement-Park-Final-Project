@@ -4,6 +4,17 @@
 //12-13-2021
 public class SplashMountain extends Attraction {
 	
+	/**
+	 * @param a- the maximum number of riders a ride can have
+	 * @param b- how many hours per day the ride operates
+	 * @param c- the tickets a ride costs
+	 * @param d- the height to get into a ride in inches
+	 * @param e- the speed of a ride
+	 * @param f- the length of a ride in seconds
+	 * @param g- number of riders on a ride
+	 * @param h- cost for ride upkeep
+	 * @param p- the number of times a ride is ridden
+	 */
 	 public SplashMountain(int a, int b, double c, double d, double e, double f, int g, double h, int p, int o) {
 	        super(a, b, c, d, e, f, g, h, p);    //passes over to the constructor in superclass
 	        time = 5; 							//ride time constant
