@@ -29,6 +29,7 @@ public class Attraction {
     		
     }
     
+    
     //instance variables
     private int maxRiders; //the maximum number of riders a ride can have
     private int hoursPerDay; //how many hours per day the ride operates

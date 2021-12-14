@@ -1,6 +1,7 @@
 //@author alex zhao
 //prints out certain information on the ride Splash Mountain
-//Heiser 7 12-13-2021
+//Heiser 7 
+//12-13-2021
 public class SplashMountain extends Attraction {
 	
 	 public SplashMountain(int a, int b, double c, double d, double e, double f, int g, double h, int p, int o) {
@@ -8,7 +9,7 @@ public class SplashMountain extends Attraction {
 	        time = 5; 							//ride time constant
 	    }
 		
-	 public static void fallFinalVelo(int x) {           //passes over a random starting velo, prints out velocity
+	 public static void fallFinalVelo(int x) {           //passes over a random starting velo, prints out final velocity
 	        double velocity = (2*-10*50) + 5*x;
 	        System.out.println("The final velocity of Splash Mountain is: " + velocity + " m/s");
 	    }
