@@ -3,6 +3,17 @@
 //Heiser 7 12-12-2021
 public class FerrisWheel extends Attraction {
 	
+		/**
+		 * @param a- the maximum number of riders a ride can have
+		 * @param b- how many hours per day the ride operates
+		 * @param c- the tickets a ride costs
+		 * @param d- the height to get into a ride in inches
+		 * @param e- the speed of a ride
+		 * @param f- the length of a ride in seconds
+		 * @param g- number of riders on a ride
+		 * @param h- cost for ride upkeep
+		 * @param p- the number of times a ride is ridden
+		 */
 	  public FerrisWheel(int a, int b, double c, double d, double e, double f, int g, double h, int p) 
 	  {
 	        super(a, b, c, d, e, f, g, h, p);
@@ -25,7 +36,7 @@ public class FerrisWheel extends Attraction {
 	  public static void main(String args[]) 
 	  {
 		//Intialize the variables inherited variables from the Attraction class
-		Attraction BigO = new Attraction(60, 8, 7.50, 36.0, 1.5, 900, 20, 150.0, 20);
+		Attraction BigO = new Attraction(60, 8, 7.50, 36.0, 1.5, 900, 20, 150.0, 10);
 		
 		System.out.println ("Welcome to the BigO:");	//Introduce the Attraction
 		FerrisWheel.gForce();	//Call the gForce method
